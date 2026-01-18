@@ -14,7 +14,6 @@ public class InsertInCircularLinkedList13 {
             }
         }
 
-
         // إضافة عنصر في نهاية القائمة الدائرية
         static Node addLast(Node head, int value) {
             Node newNode = new Node(value);

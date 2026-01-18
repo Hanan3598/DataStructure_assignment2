@@ -14,7 +14,6 @@ public class SearchInCircularLinkedList15 {
             }
         }
 
-
         // إضافة عنصر في نهاية القائمة الدائرية
         static Node addLast(Node head, int value) {
             Node newNode = new Node(value);

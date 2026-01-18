@@ -14,7 +14,6 @@ public class RemoveAtPositionSinglyList9 {
             }
         }
 
-
         // إضافة عنصر في نهاية القائمة
         static Node addLast(Node head, int value) {
             Node newNode = new Node(value);

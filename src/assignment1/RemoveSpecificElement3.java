@@ -19,7 +19,6 @@ public class RemoveSpecificElement3 {
                 }
             }
 
-
             // إنشاء مصفوفة جديدة بالحجم المناسب
             int[] newArray = new int[count];
             int index = 0;
