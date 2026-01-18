@@ -6,6 +6,7 @@ import java.util.Arrays;
 public class ArrayClone1 {
 
 
+
         // Q1: برنامج لعمل نسخة (Clone) من مصفوفة
         public static void main(String[] args) {
 

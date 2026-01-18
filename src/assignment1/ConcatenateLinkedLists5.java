@@ -13,6 +13,7 @@ public class ConcatenateLinkedLists5 {
             }
         }
 
+
         // إضافة عنصر في نهاية القائمة
         static Node addLast(Node head, int value) {
             Node newNode = new Node(value);

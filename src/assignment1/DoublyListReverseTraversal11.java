@@ -15,6 +15,7 @@ public class DoublyListReverseTraversal11 {
             }
         }
 
+
         // إضافة عنصر في نهاية القائمة
         static DNode addLast(DNode head, int value) {
             DNode newNode = new DNode(value);
