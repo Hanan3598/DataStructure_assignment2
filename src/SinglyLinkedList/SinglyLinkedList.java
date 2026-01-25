@@ -79,13 +79,22 @@ public class SinglyLinkedList<E> {
 
        return delete;
    }
+    public void display(){
+        Node<E> temp=head;
+        while (temp!=null){
+            System.out.print(temp.getData()+"----->");
+            temp=temp.getNext();
+        }
+        System.out.println("null \n");
+    }
       public void display2(){
        Node<E> temp=head;
        while (temp!=null){
-           System.out.print(temp.getData()+"----->");
+           System.out.print(temp.getData()+" ");
            temp=temp.getNext();
        }
-       System.out.println("null \n");
+       System.out.println();
+      //("null \n");
       }
 
       public void addAtposition(E data,int position){
