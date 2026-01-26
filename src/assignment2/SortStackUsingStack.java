@@ -28,6 +28,7 @@ public class SortStackUsingStack {
             Stack<Integer> sorted = sort(s);
             System.out.println(sorted);
         }
+
     }
 
 
